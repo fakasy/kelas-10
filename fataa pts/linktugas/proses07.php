@@ -1,0 +1,24 @@
+<?php
+if (isset($_POST['Pilih'])) {
+    echo "Band Favorit Anda adalah : <br>";
+    
+if (isset($_POST['Pilih'])) {
+    echo "+". $_POST['band01'] . "<br>";
+    
+}
+if (isset($_POST['Pilih'])) {
+    echo "+". $_POST['band02'] . "<br>";
+    
+}
+if (isset($_POST['Pilih'])) {
+    echo "+". $_POST['band03'] . "<br>";
+    
+}
+if (isset($_POST['Pilih'])) {
+    echo "+". $_POST['band04'] . "<br>";
+    
+}
+}
+
+
+?>

@@ -1,0 +1,12 @@
+body{
+    background-image:linear-gradient(rgba(112, 34, 238, 0.808),rgba(255, 255, 255, 0.774));
+    font-family: monospace;
+    font-size: 30px;
+
+}
+h1{
+    text-align: center;
+    background: -webkit-linear-gradient(#54c4d8, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
