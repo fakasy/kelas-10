@@ -1,0 +1,33 @@
+  body {
+    
+    background-color:rgb(34, 167, 127);
+    
+  }
+
+
+h1{
+    color :rgb(87, 13, 165);
+    text-align:center;
+} 
+h2{
+    color :rgb(87, 13, 165);
+    text-align:center;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+} 
+
+
+
+p{
+ color :rgb(0, 19, 35);
+ text-align: center;
+}
+  
+button{
+  color: rgb(62, 103, 139);
+ outline-color: blueviolet;
+ opacity: calc();
+overflow-y: auto;
+}
+
+

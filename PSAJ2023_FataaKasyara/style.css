@@ -1,0 +1,44 @@
+body {
+    background-image:linear-gradient(rgba(35, 255, 207, 0.808),rgba(224, 248, 5, 0.774));
+    font-family: monospace;
+    font-size: 30px;
+
+}
+
+h1{
+  
+    text-align: center;
+    background: -webkit-linear-gradient(#e2f01f, #ff7b00);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body, a{
+    text-align: right;
+    
+}
+
+a{
+    color: #ff1d1d;
+   
+}
+table{
+    background: -webkit-linear-gradient(#e2f01f, #ff7b00);
+}
+
+th{
+    background: -webkit-linear-gradient(#1ff0c3, #ebf741)
+}
+ td{
+    background-color: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+td a{
+    background-color: #ce0505;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+

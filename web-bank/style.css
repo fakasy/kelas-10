@@ -1,0 +1,580 @@
+*, html, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+section {
+    height: 100vh;
+}
+
+.wrapper {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(56, 72, 255, 0.568);
+    position: fixed;
+}
+
+.brand {
+    display: flex;
+    padding: 10px;
+}
+
+.contentwrapper1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('bck4.jpg');
+    background-size: cover;
+}
+
+.contentwrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('bck.jpg');
+    background-size: cover;
+}
+
+.contentwrapper3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('bck3.jpg');
+    background-size: cover;
+}
+
+.contentwrapper4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 133%;
+    background-image: url('bck1.png');
+    background-size: cover;
+}
+
+.contentwrapper5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('bck.jpg');
+    background-size: cover;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding-right: 13%;
+}
+
+.navigation-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding-right: 15%;
+}
+
+.nav {
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.nav-1 {
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.nav-2 {
+    list-style: none;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+.nav-1:hover > a {
+    color: crimson;
+    transition: all ease-in-out .25s;
+}
+
+.nav-2:hover > a {
+    color: crimson;
+    transition: all ease-in-out .25s;
+}
+
+.nav:hover {
+    background-color: #eaeaea;
+    transition: all ease-in-out .25s;
+    border-radius: 50px;
+}
+
+.nav:hover > a {
+    color: crimson;
+}
+
+.navlink {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navlink-1 {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.navlink-2 {
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+.image {
+    padding-bottom: 16%;
+    padding-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border-radius: 50px;
+}
+
+.about-content {
+    background-color: white;
+    border-radius: 25px;
+    border: 5px solid white;
+    border-color: rgb(11, 213, 232);
+    height: 500px;
+    width: 650px;
+    margin: 0 auto;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    background: rgb(255, 255, 255, 0.75);
+}
+
+.about-content1 {
+    background-color: white;
+    border-radius: 25px;
+    height: 470px;
+    width: 650px;
+    margin: 15px;
+    background-color: rgba(55, 53, 52, 0.495);
+}
+
+.about-content2 {
+    background-color: white;
+    border-radius: 25px;
+    height: 470px;
+    width: 650px;
+    margin: 15px;
+    background-color: rgba(55, 53, 52, 0.495);
+}
+
+.about-content3 {
+    background-color: white;
+    border-radius: 25px;
+    height: 470px;
+    width: 650px;
+    margin: 15px;
+    background-color: rgba(55, 53, 52, 0.495);
+}
+
+.text1 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: rgb(237, 54, 54);
+    padding-top: 20px;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: rgb(237, 54, 54);
+    padding-top: 20px;
+
+}
+
+.text3 {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    color: rgb(237, 54, 54);
+    padding-top: 20px;
+
+}
+
+.image-log {
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-left: 5%;
+}
+
+p {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;;
+    color: black;
+    font-weight: 500;
+}
+
+.content-wrapper {
+    border-radius: 25px;
+    width: 100%;
+    margin: 20px;
+}
+
+.content-wrapper1 {
+    padding-bottom: 24%;
+    border-radius: 25px;
+    width: 100%;
+    margin: 20px;
+    padding-top: 40px;
+}
+
+.content-wrapper2 {
+    border-radius: 25px;
+    width: 100%;
+    margin: 20px;
+    padding-top: 40px;
+}
+
+.wrapper-left {
+    padding-right: 10%;
+}
+
+.wrapper-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-top: 14%;
+}
+
+.wrapper-right2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+    padding-top: 10%;
+}
+
+.wrapper-sosmed1 {
+    list-style-type: none;
+    margin-left: 10%;
+}
+
+.wrapper-sosmed2 {
+    list-style-type: none;
+    margin-left: 10%;
+
+}
+
+.wrapper-sosmed3 {
+    list-style-type: none;
+    margin-left: 10%;
+
+}
+
+.wrapper-sosmed4 {
+    list-style-type: none;
+    margin-left: 10%;
+
+}
+
+.wrapper-sosmed5 {
+    list-style-type: none;
+    margin-left: 10%;
+
+}
+
+.wrapper-sosmed6 {
+    list-style-type: none;
+    margin-left: 10%;
+
+}
+
+.wrapper-sosmed7 {
+    list-style-type: none;
+    margin-left: 10%;
+
+}
+
+.text4 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    padding-right: 10%;
+    color: white;
+}
+
+.text5 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+    color: white;
+}
+
+.login1 {
+    width: 360px;
+    margin:180px auto;
+    padding: 30px 20px;
+    border-radius: 16px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 50%;
+    left: 30px;
+    right: 0;
+    top: 30px;
+    background-color: rgb(237, 54, 54);
+    overflow: hidden;
+    width: 575px;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 50px;
+
+}
+
+.overlay2 {
+    position: absolute;
+    bottom: 50%;
+    left: 30px;
+    right: 0;
+    top: 30px;
+    background-color: rgb(132, 52, 174);
+    overflow: hidden;
+    width: 575px;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 50px;
+
+}
+
+.overlay3 {
+    position: absolute;
+    bottom: 50%;
+    left: 30px;
+    right: 0;
+    top: 30px;
+    background-color: rgb(50, 171, 201);
+    overflow: hidden;
+    width: 575px;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 50px;
+
+}
+
+.image-style:hover .overlay {
+    bottom: 0;
+    height: 55%;
+} 
+
+.image-style2:hover .overlay2 {
+    bottom: 0;
+    height: 55%;
+} 
+
+.image-style3:hover .overlay3 {
+    bottom: 0;
+    height: 55%;
+} 
+
+.overlay-text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.overlay-text2 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    
+}
+
+.overlay-text3 {
+    white-space: nowrap; 
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+
+.image-style {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    width: 33%;
+}
+
+.image-style2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    width: 33%;
+}
+
+.image-style3 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    width: 33%;
+}
+
+.img-nav {
+    list-style: none;
+    padding: 10px;
+    margin: 20px;
+}
+
+.img-set {
+    width: 100%;
+    border-radius: 50px;
+    display: flex;
+}
+
+input[type=text],
+input[type=email]
+{
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-size: 30px;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+input[type=submit],
+input[type=reset]
+{
+    font-size: 15px;
+    background: red;
+    color: white;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 12px 20px;
+    cursor:pointer;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover
+{
+    opacity:0.9;
+}
+
+input[type=reset]{
+    background:  #999999;
+}
+
+textarea {
+    font-size: 15px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-size: 30px;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.name {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+.name1 {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+footer {
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+footer p {
+    color: white;
+}
